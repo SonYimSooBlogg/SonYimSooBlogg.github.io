@@ -82,7 +82,7 @@
         <span class="column is-narrow">
             
             
-            2 minutes read (About 368 words)
+            2 minutes read (About 369 words)
         </span>
         
     </div>
@@ -104,20 +104,8 @@
 <h1 id="1-3-Create-the-Webcloud"><a href="#1-3-Create-the-Webcloud" class="headerlink" title="1.3 Create the Webcloud"></a>1.3 Create the Webcloud</h1><p>server</p>
 <p></p><figure class="highlight java hljs"><figcaption><span>.md</span></figcaption><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">cd /<span class="hljs-keyword">var</span>/www/html</span><br><span class="line">apt-get -y install php-zip php-mbstring php-curl</span><br><span class="line">mv ~/&#xB2E4;&#xC6B4;&#xB85C;&#xB4DC;/owcloud (tab)    </span><br><span class="line">ls -l</span><br><span class="line"><span class="hljs-function">tar xfj <span class="hljs-title">ow</span><span class="hljs-params">(tab)</span></span></span><br><span class="line"><span class="hljs-function">chmod 707 owncloud</span></span><br><span class="line"><span class="hljs-function">chown -R www-data.www-data owncloud</span></span><br><span class="line"><span class="hljs-function">ls -l</span></span><br><span class="line"><span class="hljs-function">systemctl restar apache2</span></span><br><span class="line"><span class="hljs-function">ufw allow 443</span></span><br></pre></td></tr></tbody></table></figure><p></p>
 <p>client</p>
-<p>192.168.111.100/owncloud</p>
-<p>create admin and password</p>
-<p>xeUser  -&gt; 1234 -&gt;xeDB -&gt; &#xC124;&#xCE58;&#xC644;&#xB8CC;</p>
-<p>&#xB3CB;&#xBCF4;&#xAE30; &#xC606; -&gt; &#xC0AC;&#xC6A9;&#xC790; -&gt; &#xC0AC;&#xC6A9;&#xC790; =ubuntu ,&#xBE44;&#xBC88;&#xC124;&#xC815;=1234 -&gt; &#xADF8;&#xB8F9;&#xCD94;&#xAC00; user -&gt; &#xB9CC;&#xB4E4;&#xAE30;</p>
-<p>&#xC124;&#xC815; -&gt; &#xC6A9;&#xB7C9;&#xC870;&#xC808; </p>
-<p>owncloud setup &#xD30C;&#xC77C; &#xC124;&#xCE58;</p>
-<p>server address &#xC5D0;  <a href="http://192.168.111.100/owncloud/" target="_blank" rel="noopener">http://192.168.111.100/owncloud/</a></p>
-<p>&#xC0AC;&#xC6A9;&#xC790; = ubuntu &#xBE44;&#xBC88; = 1234</p>
-<p>local folder &#xC5D0; owncloud &#xD3F4;&#xB354; &#xC0DD;&#xC131;</p>
-<p>finish</p>
-<pre><code>
-
-
-</code></pre></body></html>
+<p></p><figure class="highlight plain hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">``` .md</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">192.168.111.100/owncloud</span><br><span class="line"></span><br><span class="line">create admin and password</span><br><span class="line"></span><br><span class="line">xeUser  -&gt; 1234 -&gt;xeDB -&gt; &#xC124;&#xCE58;&#xC644;&#xB8CC;</span><br><span class="line"></span><br><span class="line">&#xB3CB;&#xBCF4;&#xAE30; &#xC606; -&gt; &#xC0AC;&#xC6A9;&#xC790; -&gt; &#xC0AC;&#xC6A9;&#xC790; =ubuntu ,&#xBE44;&#xBC88;&#xC124;&#xC815;=1234 -&gt; &#xADF8;&#xB8F9;&#xCD94;&#xAC00; user -&gt; &#xB9CC;&#xB4E4;&#xAE30;</span><br><span class="line"></span><br><span class="line">&#xC124;&#xC815; -&gt; &#xC6A9;&#xB7C9;&#xC870;&#xC808; </span><br><span class="line"></span><br><span class="line">owncloud setup &#xD30C;&#xC77C; &#xC124;&#xCE58;</span><br><span class="line"></span><br><span class="line">server address &#xC5D0;  http://192.168.111.100/owncloud/</span><br><span class="line"></span><br><span class="line">&#xC0AC;&#xC6A9;&#xC790; = ubuntu &#xBE44;&#xBC88; = 1234</span><br><span class="line"></span><br><span class="line">local folder &#xC5D0; owncloud &#xD3F4;&#xB354; &#xC0DD;&#xC131;</span><br><span class="line"></span><br><span class="line">finish</span><br></pre></td></tr></tbody></table></figure><p></p>
+</body></html>
     
     </div>
     
